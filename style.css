@@ -1,0 +1,378 @@
+:root{
+    --blanco:whitesmoke;
+    --verde:rgb(89, 211, 164);
+    --negro:black;
+    --maluma:(#01f65c);
+}
+
+ /* Seccion Header */
+
+.bg-menu{
+    background: url('img-com/bg_menus-1.jpg') no-repeat;
+    height: 86px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img-maluma{
+    position: relative;
+    top: 30px;
+}
+
+.nav-item a{
+    color: whitesmoke;
+}
+
+.nav-item a:hover{
+    color: blueviolet !important;
+}
+
+.dropdown-menu a{
+    color: aqua;
+}
+
+.nav-item{
+    margin-top: 15px;
+}
+
+.img-logo-menu{
+    margin-top: -15px;
+    
+}
+
+.img-fondo{
+    position: relative;
+    top: 86px;
+    background: url('img-logos/bg-banner-hp_02.jpg') ;
+    min-height: 74vh;
+    background-size: inherit;
+}
+
+.img-center{
+    margin-top: 200px;
+    text-align: center;
+    margin-left: -220px;
+    cursor: pointer;
+}
+
+.division-home{
+    background: url('img-com/bg-menu-top-neon.png') ;
+    height: 50px;
+    position: relative;
+    top: 86px;
+}
+
+#home-section {
+    background: url('img-com/BG_eventos_elhp.jpg') ;
+    min-height: 100vh;
+  }
+  
+  .dark-overlay {
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    width: 100%;
+    min-height: 133%;
+    margin-top: 86px;
+  }
+
+  .img-top-center{
+    text-align: center;
+  }
+
+  /* Seccion eventos */
+
+section.section-info{
+    padding: 361px 0;
+}
+
+#eventos{
+    position: relative;
+    top: 70px;
+}
+
+.titulo-evento{
+    color: var(--blanco);
+    font-size:16px;
+    margin-bottom: -35px;
+    opacity: .5;
+    font-weight: 100;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.list-ul-green{
+    font-size: 50px;
+    color: #01f65c !important;
+}
+
+.list-ul a:hover{
+    color: #01f65c !important;
+}
+
+.list-ul-white{
+    color: var(--blanco) !important;
+    opacity: .5;
+}
+
+.a-hover a:hover{
+    color: var(--blanco) !important;
+}
+
+#navbar-top{
+    margin-top: -60px;
+}
+
+.input{
+    width:100%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.input-padre{
+    text-transform: uppercase;
+    border-bottom: 1px solid #01f65c;
+    position: relative;
+    top: 60px;
+    padding: 10px;
+}
+
+.input-padre label{
+    text-align: left;
+    font-size: 16px;
+    color: var(--blanco);
+}
+
+.mb-sm{
+    margin-bottom:14px;
+    margin-top: 40px;
+}
+
+.btn-send{
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 20px 3px #01f65c;
+    font-weight: 600;
+}
+
+#boton-centrado{
+    text-align: center;
+}
+
+#boton{
+    background-color: var(--blanco);
+    width: 200px;
+    border-radius: 25px;
+    position: relative;
+    top: 200px;
+}
+
+/* Section Merchadising */
+
+#fondo-retail{
+    background-color: rgb(228, 228, 228);
+
+}
+
+.col-hijo{
+    margin-top: 40px;
+}
+
+.titulo-poleras{
+    color: #01f65c;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.sub-titulo-poleras{
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.kit-text-center{
+    text-align: center;
+}
+
+.list-ul-col-hijo{
+    color: #01f65c !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list-ul-col-back{
+    background-color: black;
+    width: 170px;
+    position: relative;
+    left: 50px;
+    text-transform: capitalize;
+
+}
+
+.list-ul-col-bg{
+    color: #01f65c !important;
+}
+
+#list-ul-link a:hover{
+    color: #01f65c !important;
+}
+
+.list-ul-link{
+    color: black !important;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+#col-center{
+    text-align: center
+}
+
+.texto-titulo{
+    text-transform: capitalize;
+}
+
+#texto-titulo:hover{
+    color: #01f65c !important;
+}
+
+#texto-titulo{
+    color: black !important;
+    font-weight: bold;
+}
+
+/* Section Fame & Fundation */
+
+.img-fame{
+    background: url('img-com/background-hp-secciones_01.png') ;
+    border-bottom: 10px solid #01f65c;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+#col-top{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Section Footer */
+
+#img-footer{
+    background: url('img-com/bg_menus-1.jpg') ;
+    background-size: auto;
+    border-bottom: 4px solid #01f65c;
+}
+
+.titulo-footer{
+    color: #01f65c;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+.texto-footer{
+    color: white !important;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+#input-footer{
+    display: flex;
+}
+
+#btn-footer{
+    text-transform: uppercase;
+    font-weight: 200;
+    background-color: #01f65c;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 0% !important;
+}
+
+#input-footer{
+    font-weight: 100;
+    border-bottom: none !important;
+    cursor: pointer;
+}
+
+.input-footer{
+    font-weight: 100;
+}
+
+.texto-footer-1{
+    margin-top: 25px;
+    text-transform: capitalize;
+    color: white !important;
+}
+
+.texto-span{
+    color: #01f65c;
+    cursor: pointer;
+}
+
+#col-footer{
+    text-align: end;
+}
+
+.titulo-abajo-footer{
+    color: #01f65c;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.svg-inline--fa{
+    color: #01f65c;
+    display: -webkit-inline-box;
+    font-size: -webkit-xxx-large;
+}
+
+#img-instagram{
+    position: relative;
+    right: 80px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+#img-facebook{
+    position: relative;
+    right: 60px;
+    cursor: pointer;
+}
+
+#img-twitter{
+    position: relative;
+    right: 40px;
+    cursor: pointer;
+}
+
+#img-youtube{
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+}
+
+.footer-top{
+    margin-top: 60px;
+}
+
+.lead{
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+  
+  
